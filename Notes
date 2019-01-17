@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=UF8prUYlA98&list=PLFGoYjJG_fqq6cHeqfsDes3pdVh3kpl74&index=10
-Commands:
 
+Commands:
 >git init --> it will initialize the .git file which is hidden (ex: goto C:\Ram\Selenium\Project\DemoGITRepo path in cmd and enter git init)
 >git remote add origin https://github.com/brkreddy06/DemoRepo.git --> to establish the connection from our local machine to git
 >git status --> to check the status of the untracked files or not commited files
@@ -8,9 +8,7 @@ Commands:
 >git commit -m "<put any comments>"--> to push the code into git 
 >git clone --> is used to clone the exact repository from git to local machine 
 >git pull origin master --> is used to get the latest code version
-
-
-
+******************************PUSH Steps**********************
 pull to git repository
 stepts:
 >git init
@@ -20,8 +18,10 @@ stepts:
 >git status
 >git commit -m "comments"
 >git push origin master
-
+******************************PULL Steps************************
 push to local machin from git repository
 steps:
 >git clone
 >git pull origin master
+
+
