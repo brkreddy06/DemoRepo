@@ -2,4 +2,16 @@ https://www.youtube.com/watch?v=UF8prUYlA98&list=PLFGoYjJG_fqq6cHeqfsDes3pdVh3kp
 Commands:
 
 >git init --> it will initialize the .git file which is hidden (ex: goto C:\Ram\Selenium\Project\DemoGITRepo path in cmd and enter git init)
->
+>git remote add origin https://github.com/brkreddy06/DemoRepo.git --> to establish the connection from our local machine to git
+>git status --> to check the status of the untracked files or not commited files
+>git add . --> to reay to checkin (push) complete project folder into git or if u want to add 2 files (ex:git add HomePage.java) 
+>git commit -m "<put any comments>"--> to push the code into git 
+
+stepts:
+>git init
+>git remote add origin <url>
+>git status
+>git add .
+>git status
+>git commit -m "comments"
+>git push origin master
