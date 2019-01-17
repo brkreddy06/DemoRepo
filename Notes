@@ -6,7 +6,12 @@ Commands:
 >git status --> to check the status of the untracked files or not commited files
 >git add . --> to reay to checkin (push) complete project folder into git or if u want to add 2 files (ex:git add HomePage.java) 
 >git commit -m "<put any comments>"--> to push the code into git 
+>git clone --> is used to clone the exact repository from git to local machine 
+>git pull origin master --> is used to get the latest code version
 
+
+
+pull to git repository
 stepts:
 >git init
 >git remote add origin <url>
@@ -15,3 +20,8 @@ stepts:
 >git status
 >git commit -m "comments"
 >git push origin master
+
+push to local machin from git repository
+steps:
+>git clone
+>git pull origin master
